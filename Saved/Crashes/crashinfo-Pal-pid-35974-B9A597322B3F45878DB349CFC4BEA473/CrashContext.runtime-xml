@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>3B27D39903014800AF85CE355A9AB7E6</ExecutionGuid>
+<CrashGUID>UECC-Linux-5F661BE2C98C4E52837E370E2D312C0C_0001</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Caught signal 6 Aborted</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>35974</ProcessId>
+<SecondsSinceStart>37869</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Pal</GameName>
+<ExecutableName>PalServer-Linux-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>LinuxServer</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Server</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+<CommandLine> Pal -publiclobby</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en_US_POSIX</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-0-Linux-Shipping</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>/home/brandonspalworld/.local/share/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+<RootDir>/home/brandonspalworld/.local/share/Steam/steamapps/common/PalServer/</RootDir>
+<MachineId>A475443E917B4B6B96B5AAA7D1D0791B-000003E9</MachineId>
+<LoginId>a475443e917b4b6b96b5aaa7d1d0791b-000003e9</LoginId>
+<HostName>palworld-1</HostName>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>1</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>2</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Xeon(R) CPU @ 2.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>UnknownVendor</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Ubuntu 26.04 LTS</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>7.0.0-1008-gcp</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>4097236992</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>4</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>1489956864</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>2115297280</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>2344931328</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>4326457344</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>4401414144</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+                  libc.so 0x000078f0d9000000 + ae3cc           
+                  libc.so 0x000078f0d9000000 + 47cde           
+                  libc.so 0x000078f0d9000000 + 288ec           
+             libsteam_api 0x000078f0db08c000 + 327a5           
+             libsteam_api 0x000078f0db08c000 + 30bf6           
+             libsteam_api 0x000078f0db08c000 + 30c23           
+             libsteam_api 0x000078f0db08c000 + 30cdf           
+ PalServer-Linux-Shipping 0x0000000000200000 + a81753b         
+ PalServer-Linux-Shipping 0x0000000000200000 + a196c5b         
+ PalServer-Linux-Shipping 0x0000000000200000 + 41b57c3         
+ PalServer-Linux-Shipping 0x0000000000200000 + 41b639a         
+ PalServer-Linux-Shipping 0x0000000000200000 + acded00         
+                  libc.so 0x000078f0d9000000 + 2a8c1           
+                  libc.so 0x000078f0d9000000 + 2a9d8           
+ PalServer-Linux-Shipping 0x0000000000200000 + 41b4029         
+</PCallStack>
+<PCallStackHash>05D77C29A33C63FA774A9E0B273B48214B37D74F</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<CrashSignal>6</CrashSignal>
+<CrashSignalName>Aborted</CrashSignalName>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+<RHI.RHIName>NullRHI</RHI.RHIName>
+<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+<NumClients>1</NumClients>
+</EngineData>
+<GameData>
+<__sentry>{
+	&quot;release&quot;: &quot;Pal@1.0.2.101103&quot;,
+	&quot;environment&quot;: &quot;Release&quot;,
+	&quot;contexts&quot;:
+	{
+		&quot;Unreal Engine&quot;:
+		{
+			&quot;Engine version&quot;: &quot;5.1.1-0&quot;,
+			&quot;Plugin version&quot;: &quot;1.10.0&quot;,
+			&quot;Is Marketplace version&quot;: &quot;false&quot;,
+			&quot;Configuration&quot;: &quot;Shipping&quot;,
+			&quot;Target Type&quot;: &quot;Server&quot;,
+			&quot;Engine mode&quot;: &quot;Server&quot;,
+			&quot;Is game&quot;: &quot;true&quot;,
+			&quot;Is standalone&quot;: &quot;true&quot;,
+			&quot;Is unattended&quot;: &quot;false&quot;,
+			&quot;Game name&quot;: &quot;PalServer&quot;
+		},
+		&quot;device&quot;:
+		{
+			&quot;device_type&quot;: &quot;Desktop&quot;,
+			&quot;cpu_description&quot;: &quot;Intel(R) Xeon(R) CPU @ 2.20GHz&quot;,
+			&quot;number_of_cores&quot;: &quot;1&quot;,
+			&quot;number_of_cores_including_hyperthreads&quot;: &quot;2&quot;,
+			&quot;physical_memory_size_gb&quot;: &quot;4&quot;
+		}
+	},
+	&quot;tags&quot;:
+	{
+		&quot;build_config&quot;: &quot;shipping&quot;,
+		&quot;Target Type&quot;: &quot;Server&quot;,
+		&quot;engine_mode&quot;: &quot;Server&quot;,
+		&quot;Is game&quot;: &quot;true&quot;,
+		&quot;Is standalone&quot;: &quot;true&quot;,
+		&quot;Is unattended&quot;: &quot;false&quot;,
+		&quot;pak_files&quot;: &quot;Pal-LinuxServer.pak, &quot;,
+		&quot;is_use_mods&quot;: &quot;false&quot;,
+		&quot;use_bad_driver&quot;: &quot;false&quot;,
+		&quot;gpu_driver&quot;: &quot;&quot;,
+		&quot;version&quot;: &quot;1.0.2.101103&quot;,
+		&quot;revision&quot;: &quot;101103&quot;,
+		&quot;platform&quot;: &quot;Linux&quot;,
+		&quot;session_id&quot;: &quot;steam_null_1785832593&quot;,
+		&quot;savedata_rev&quot;: &quot;101103&quot;,
+		&quot;saved_using_mod&quot;: &quot;false&quot;,
+		&quot;players&quot;: &quot;1&quot;,
+		&quot;server_type&quot;: &quot;community&quot;
+	}
+}</__sentry>
+</GameData>
+</FGenericCrashContext>
